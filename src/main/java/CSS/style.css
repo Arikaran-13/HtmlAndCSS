@@ -1,0 +1,32 @@
+h2{
+    color: deeppink;
+}
+h1{         /* type selecter*/
+    color: orange;
+}
+.redtext{    /* class selecter  */
+    color: red;
+}
+p{
+    color: blue;
+}
+  #def{    /* identifier selector */
+    color: darkgray;
+}
+h1~h2{  /*sibling selecter */
+    color: cadetblue;
+}
+h2{       /* sibling selecter has more propority than normal type selector thats the reason h1 sibling h2 not changed to black colour  */
+    color: black;
+}
+h2+h3{  /* adjacent sibling selecter */
+    color: brown;
+}
+h2{
+    color: blueviolet !important;
+} /* now h2 colour will changed because !importance has more priority than sibling selecter*/
+
+
+div a {   /* descendent selecter */
+    color: darkgoldenrod;
+}
