@@ -1,0 +1,21 @@
+h1{
+    color: deeppink;
+}
+h2{
+    color: purple;
+}
+body{
+    font-family: "Fira Code"
+}
+.redtext{
+    color: red;
+}
+.aboutme,#eq>ul{
+    color: brown;
+}
+.redtext a {
+    color: black;
+}
+h2{
+
+}

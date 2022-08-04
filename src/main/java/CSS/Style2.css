@@ -1,0 +1,19 @@
+h1{
+    color: deeppink;
+    background-color: black;
+}
+.nav a{
+    color : rgb(10,167,189);
+}
+.nav {
+    text-align : center;
+}
+h2{
+    color: #800080;
+}
+body{
+    font-family: Georgia, "Times New Roman", serif;
+}
+p{
+    color: brown;
+}
