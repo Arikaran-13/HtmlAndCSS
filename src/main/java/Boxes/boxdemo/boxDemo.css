@@ -1,0 +1,51 @@
+h1{
+    font-family : Georgia, "Times New Roman", serif;
+    font-size:36px;
+    font-stretch: normal;
+    font-style:normal;
+    font-weight:normal;
+    letter-spacing: 1px;
+    background-color: beige;
+    color: navy;
+    text-align:center;
+}
+p{
+    font-size:20px;
+    word-spacing:1px;
+    max-width:1200px;
+  /* border: 1px solid black;*/
+   /* max-height:500px;
+    overflow:scroll;*/
+    background-color: aliceblue;
+    /*border-width:2px;*/
+  /*  border-style: double;*/
+    /*border-color: black;*/
+    /*border-top-width: 3px;
+    border-bottom-width:4px;*/
+  /*  border-width: 2px 5px 2px 3px *//* top width , right width , bottom width left width*/
+
+    padding: 8px; /*space between content and the border */
+   /* margin: 70px;*/ /*space between border and the next element*/
+ /* margin : auto 70px  auto 70px; */ /*// top , right , bottom , left*/
+    margin : 20px 70px  20px 70px;
+
+
+   /* border-width: 5px;
+    border-left-style:dashed;
+    border-right-style: dashed;*/
+
+    border-radius:5px;  /*for round curved edges in the border*/
+   /* border-radius : 80px 50px;
+    -moz-border-radius: 80px 50px;
+    -webkit-border-radius: 80px 50px;*/
+   /* box-shadow: 2px 2px 2px;
+    -moz-box-shadow: 2px 2px 2px black;
+    -webkit-box-shadow: 2px 2px 2px 2px black;*/
+    border : 20px solid black;
+    border-image: url("border.jpg") stretch;/* setting image as an border
+*/
+
+}
+.divpara{
+    border: 1px solid blue;
+}
