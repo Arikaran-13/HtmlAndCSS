@@ -1,0 +1,92 @@
+/*
+.bluebox{
+    border:1px solid blue;
+    width:100px;
+    padding:100px;
+    background-color: darkslateblue;
+
+    position:relative;
+    top:10px;
+
+}
+.redbox{
+  width:50px;
+    padding:50px;
+    background-color:yellow;
+    position:relative;
+    top:30px;
+    left:300px;
+    bottom:30px;
+}
+*/
+
+/*
+intially position of all html element is static
+so we cannot move the element using left , top, bottom ,right
+attributes .. so first we are settin the position as relative
+and then we can easily move the elements using above attributes
+
+
+
+
+
+
+
+
+*/
+/*
+.bluebox{
+    border:1px solid blue;
+    width:100px;
+    padding:100px;
+    background-color: darkslateblue;
+
+
+
+}
+.redbox{
+    width:50px;
+    padding:50px;
+    background-color:yellow;
+    position:absolute;
+    top:30px;
+   bottom:300px;
+}
+*/
+
+/*
+
+whem i set position as absolute and moved the yellow block
+30px down it will search for its non static parent and from there it will moves 30px from top to down
+if there are no non static parent then it moves from the body tag
+
+
+*/
+.bluebox{
+    border:1px solid blue;
+    width:100px;
+    padding:100px;
+    background-color: darkslateblue;
+    position :relative;
+
+
+
+}
+/*
+.redbox{
+    width:50px;
+    padding:50px;
+    background-color:yellow;
+    position:fixed;
+    top:30px;
+
+}*/
+.redbox{
+    width:50px;
+    padding:50px;
+    background-color:yellow;
+    position:sticky;
+    top:30px;
+
+
+}
