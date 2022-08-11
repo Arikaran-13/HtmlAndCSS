@@ -1,0 +1,79 @@
+body{
+    background: url("/media/bg6.jpg");
+    font-family: Georgia, "Times New Roman", serif;
+}
+.loginform{
+   position:relative;
+    width:400px;
+    margin:250px auto;
+    /*background-color: darkgrey;*/
+    color: white;
+     padding:5px;
+   border-radius: 7px;
+
+}
+
+.ipt input{
+    width: 100%;
+    box-sizing: border-box;
+
+    padding:2px  3px;
+    margin:5px 0px;
+   font-family: fontawesome;
+
+    border:none;
+    font-size:1.4em;
+}
+
+h2{
+    text-align: center;
+}
+.inline{
+    font-size: 12px;
+    display: inline;
+    top:5px;
+}
+.inline a{
+    position: relative;
+    left:200px;
+    text-decoration: none;
+
+}
+.checkbox{
+    accent-color: deepskyblue;
+}
+.btn{
+
+    text-align: center;
+    position: relative;
+    top:5px;
+    left:125px;
+    box-sizing: border-box;
+    padding:7px;
+    margin:5px;
+
+
+}
+.loginform button{
+
+    display:block;
+    width:30%;
+
+    border:none;
+    font-family: Georgia, "Times New Roman", serif;
+    color: white;
+    font-size: 1.4em;
+    background-color: rgba(0,0,0,0.5);
+}
+.btn:hover{
+    cursor: pointer;
+}
+.inline a:hover{
+    text-decoration: underline;
+}
+input:hover{
+    background-color: blanchedalmond;
+}
+.loginform button:hover{
+    opacity: 70%;
+}

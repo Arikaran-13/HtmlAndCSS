@@ -1,0 +1,24 @@
+div p:nth-child(1){
+    background-color: skyblue;
+}
+div p:nth-child(2){
+    background-color: darkgray;
+}
+div p:nth-child(3){
+    background-color: aquamarine;
+}
+
+@media(min-width:801px){
+
+    .para p {
+        width:30%;
+        float: left;
+    }
+
+}
+@media print {
+
+    .para{
+        background-color: lightgreen;
+    }
+}

@@ -1,0 +1,214 @@
+body {
+    background: url(/media/pinterestbg.png);
+    font-family: "Segoe UI", -apple-system, serif
+
+}
+
+.loginform {
+    background-color: rgba(255, 255, 255, 1);
+    width: 300px;
+    padding: 7px 5%;
+    margin: 250px auto;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.loginform {
+    padding-top: 3px;
+    min-height: 250px;
+
+}
+
+.or {
+    position: relative;
+    left: 108px;
+    margin: 8px 0px;
+}
+
+.loginform label {
+    display: block;
+    font-size: 12px;
+
+
+}
+
+.loginform h2 {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    font-weight: bold;
+
+}
+
+.loginform input {
+    padding: 12px;
+    width: 73%;
+    border-radius: 15px;
+    margin: 5px;
+    border: 1px solid grey;
+    position: relative;
+    bottom: 3px;
+
+}
+
+.content {
+    position: relative;
+    left: 5px;
+    margin: 0px auto;
+
+    bottom: 30px;
+    padding-left: inherit;
+    margin-bottom: -30px;
+    margin-top: -10px;
+}
+
+.forgetpass {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#log_btn, #gg_btn, #fb_btn {
+    display: block;
+    border: none;
+    color: white;
+    background-color: #ff2b3d;
+    font-family: "Segoe UI", -apple-system, serif;
+    font-weight: bold;
+    width: 78%;
+    padding: 7px;
+    border-radius: 15px;
+    position: relative;
+    left: 12px;
+    margin: 5px 0px;
+}
+
+#log_btn {
+    margin-top: 15px;
+}
+
+#fb_btn {
+    margin-bottom: 12px;
+
+
+}
+
+#gg_btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 0px;
+
+}
+
+#gg_btn #gg {
+    position: relative;
+    bottom: 1.5px;
+    right: 25px;
+    color: grey;
+    font-weight: bold;
+
+}
+
+#gg_btn img {
+    width: 15px;
+    margin-right: 40px;
+}
+
+#fb_btn img {
+    width: 25px;
+    position: relative;
+    top: 1.3px;
+    right: 10px;
+}
+
+#fb_btn #fb {
+    position: relative;
+    bottom: 4px;
+
+
+}
+
+.or {
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+#fb_btn {
+    background-color: royalblue;
+    padding: 4px 0px;
+
+}
+
+.txtcontent {
+    font-size: 10px;
+}
+
+.grey {
+    color: grey;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.loginform #pin {
+    width: 17%;
+    position: relative;
+    left: 125px;
+    margin: 10px auto;
+    top: 5px;
+    padding-bottom: 5px;
+}
+
+.para1 {
+    padding: 8px 0px;
+}
+
+.para1 #l1 {
+    position: relative;
+    left: 15%;
+}
+
+.para1 #l2 {
+    position: relative;
+    left: 7%;
+}
+
+.para1 #l3 {
+    position: relative;
+    left: 33%;
+}
+
+.para2 {
+    text-align: center;
+    position: relative;
+    right: 25px;
+
+}
+
+.loginform .para2 #line1 {
+    position: relative;
+    left: 3px;
+
+}
+
+.loginform .para2 #line2 {
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+
+.ipt :focus {
+    border: 1px solid darkorange;
+
+}
+
+
+.loginform #log_btn, #fb_btn, #gg_btn:hover {
+    cursor: pointer;
+}
+
+.loginform .forgetpass:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

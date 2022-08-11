@@ -1,0 +1,10 @@
+div{
+    border:1px solid darkslateblue;
+    height:300px;
+    width:300px;
+    margin:auto;
+   /* background: linear-gradient(blue ,green ,yellow);*/
+    /*background:linear-gradient(hotpink,white);*/
+  /*  background:radial-gradient(red,black);*/
+    /*background:radial-gradient(blue 10%,blue, green 30%,green);*/
+}

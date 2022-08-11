@@ -1,0 +1,7 @@
+.para p{
+    width:30%;
+    float:left;
+}
+.para p:nth-child(4){ /*paragraph kula erukka p tag la 4th child aa target pandren*/
+    clear:left;
+}
