@@ -1,0 +1,17 @@
+.html{
+    font-size: 18px;
+}
+#para1{
+    font-size: 15px;
+}
+#para2{
+    font-size: 2em;
+}
+#para3{
+    font-size:2rem;
+}
+.box{
+   height: 300px;
+    width:300px;
+
+}
