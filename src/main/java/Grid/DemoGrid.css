@@ -1,0 +1,32 @@
+ body{
+     background-color: darkorchid;
+ }
+.grid_container {
+   display:grid;
+    gap:30px 20px;
+  /*grid-template-columns: repeat(3,100px);*/
+    /*grid-template-columns: 1fr 1fr 1fr auto;*/
+   /* grid-template-columns: minmax(300px , 1fr) 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    background-color:darkcyan;
+column-gap:20px;
+    row-gap:20px;
+
+
+}
+.para{
+    color: white;
+    padding:1rem;
+
+}
+.outerbox{
+    background-color: greenyellow;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
+.num {
+    color:black;
+    font-size: 4rem;
+}
